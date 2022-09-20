@@ -1,41 +1,184 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.4s ease;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.4s ease;
+  scroll-behavior: smooth;
 }
 
-#navig .logo img{
-    width: 270px;
+#navig .logo img {
+  width: 270px;
 }
 
-#navig{
-    padding: 50px 150px 50px 150px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+#navig {
+  padding: 50px 150px 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#navig a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 700;
-    margin: 30px;
-    font-size: 18px;
+#navig a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  margin: 30px;
+  font-size: 18px;
 }
 
-.fixed{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 40%;
-    left: 30px;
+.fixed {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 40%;
+  left: 30px;
 }
 
-.fixed img{
-    width: 35px;
-    margin-bottom: 45px;
+.fixed img {
+  width: 35px;
+  margin-bottom: 45px;
+}
+
+/*Section Contact*/
+
+.contact {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.contact .img-contact {
+  width: 50%;
+  margin-right:100px ;
+}
+
+.contact input,
+.contact textarea {
+  width: 324px;
+  border: 2px solid #28b7c5;
+  margin: 2px;
+  padding: 10px 15px;
+  background-color: transparent;
+}
+.contact-form form .button button {
+  width: 158px;
+  border: 2px solid #28b7c5;
+  margin: 2px;
+  padding: 20px 20px;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+.contact h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.contact .img-contact img {
+  width: 100%;
+}
+
+
+
+.line-1 {
+  width: 15px;
+  height: 15px;
+  background: #28b7c5;
+  display: inline-block;
+}
+
+.line-2 {
+  width: 80px;
+  height: 1px;
+  background: #28b7c5;
+  display: inline-block;
+}
+
+.line-3 {
+  width: 60px;
+  height: 1px;
+  background: #28b7c5;
+  display: inline-block;
+}
+
+.line {
+  line-height: 8px;
+}
+
+/*Partie Footer*/
+
+hr.footer-line {
+  width: 90%;
+  text-align: center;
+  background-color: #28b7c5;
+  height: 1px;
+  margin: auto;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  padding: 25px 100px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.col-r {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.col-r button {
+  padding: 10px 35px;
+  font-size: 10px;
+  background-color: transparent;
+  border: 2px solid#28b7c5;
+}
+
+.col-m {
+  display: flex;
+  align-items: center;
+}
+
+.logo-footer {
+  width: 100px;
+  margin-bottom: 25px;
+}
+
+footer nav .cat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer nav .cat li {
+  list-style: none;
+}
+
+footer nav .cat h2 {
+  font-size: 16px;
+  color: #28b7c5;
+  margin-bottom: 10px;
 }
