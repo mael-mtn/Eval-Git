@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -41,6 +42,8 @@
     margin-bottom: 45px;
 }
 =======
+=======
+>>>>>>> 7-creation-of-the-footer-block
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +86,7 @@
   margin-bottom: 45px;
 }
 
+<<<<<<< HEAD
 /*Section Contact*/
 
 .contact {
@@ -163,6 +167,8 @@
 
 /*Partie Footer*/
 
+=======
+>>>>>>> 7-creation-of-the-footer-block
 hr.footer-line {
   width: 90%;
   text-align: center;
@@ -225,4 +231,7 @@ footer nav .cat h2 {
   color: #28b7c5;
   margin-bottom: 10px;
 }
+<<<<<<< HEAD
 >>>>>>> 6-creation-of-the-contact-block
+=======
+>>>>>>> 7-creation-of-the-footer-block
