@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+    scroll-behavior: smooth;
+}
+
+#navig .logo img{
+    width: 270px;
+}
+
+#navig{
+    padding: 50px 150px 50px 210px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#navig nav ul{
+    display: flex;
+    list-style: none;
+}
+#navig a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.fixed{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 40%;
+    left: 30px;
+}
+
+.fixed img{
+    width: 35px;
+    margin-bottom: 45px;
+}
+.fixed ul li{
+    list-style-type: none;
+}
+
+/* Header */
+header{
+    display: flex;
+    background: url(../assets/background1.png);
+    height: 950px;
+}
+
+header .gauche{
+    width: 40%;
+    padding: 10px 70px 20px 150px;
+}
+
+header .gauche h1{
+    font-size: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.carre{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #28B7C5;
+}   
+
+.gauche p{
+    margin-top: 20px;
+    width: 85%;
+    margin-bottom: 40px;
+}
+
+.gauche a button{
+    padding: 20px 50px;
+    border: 2px solid #28B7C5;
+    background: none;
+    margin-bottom: 100px;
+
+}
+
+.t1{
+    display: inline-block;
+    background-color: #28B7C5;
+    width: 85px;
+    height: 2px;
+}
+
+.t2{
+    display: block;
+    background-color: #28B7C5;
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+}
+.droite{
+    width: 60%;
+}
+
+
