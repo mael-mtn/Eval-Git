@@ -1,49 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    transition: all 0.4s ease;
-    scroll-behavior: smooth;
-}
-
-#navig .logo img{
-    width: 270px;
-}
-
-#navig{
-    padding: 50px 150px 50px 150px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-}
-
-#navig a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-weight: 700;
-    margin: 30px;
-    font-size: 18px;
-}
-
-.fixed{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 40%;
-    left: 30px;
-}
-
-.fixed img{
-    width: 35px;
-    margin-bottom: 45px;
-}
-=======
-=======
->>>>>>> 7-creation-of-the-footer-block
+/*HEADER*/
 * {
   margin: 0;
   padding: 0;
@@ -86,7 +41,39 @@
   margin-bottom: 45px;
 }
 
-<<<<<<< HEAD
+#navig .logo img {
+  width: 270px;
+}
+
+#navig {
+  padding: 50px 150px 50px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#navig a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  margin: 30px;
+  font-size: 18px;
+}
+
+.fixed {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 40%;
+  left: 30px;
+}
+
+.fixed img {
+  width: 35px;
+  margin-bottom: 45px;
+}
+
 /*Section Contact*/
 
 .contact {
@@ -109,7 +96,7 @@
 
 .contact .img-contact {
   width: 50%;
-  margin-right:100px ;
+  margin-right: 100px;
 }
 
 .contact input,
@@ -138,8 +125,6 @@
   width: 100%;
 }
 
-
-
 .line-1 {
   width: 15px;
   height: 15px;
@@ -167,8 +152,6 @@
 
 /*Partie Footer*/
 
-=======
->>>>>>> 7-creation-of-the-footer-block
 hr.footer-line {
   width: 90%;
   text-align: center;
@@ -231,7 +214,3 @@ footer nav .cat h2 {
   color: #28b7c5;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
->>>>>>> 6-creation-of-the-contact-block
-=======
->>>>>>> 7-creation-of-the-footer-block
