@@ -9,6 +9,7 @@
 
 #navig .logo img{
     width: 270px;
+    z-index: 9999;
 }
 
 #navig{
@@ -16,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
+    position: relative;
 }
 #navig nav ul{
     display: flex;
@@ -29,6 +31,7 @@
     margin: 30px;
     font-size: 18px;
 }
+
 .hbg{
     display: none;
 }
@@ -48,13 +51,36 @@
 .hbg:hover{
     transform: scale(1.4);
 }
-
+.overlay{
+    background-color: rgb(175, 175, 175);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    display: none;
+}
 @media screen and (max-width: 1000px) {
     .hbg{
         display: block;
     }
     #navig a{
         display: none;
+    }
+    .fixed img{
+        display: none;
+    }
+    #navig{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hbg{
+        margin-left: 60px;
+    }
+    .overlay{
+        display: block;
     }
 }
 /* LOGO FIXE GAUCHE */
