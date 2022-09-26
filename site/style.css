@@ -74,6 +74,45 @@
   margin-bottom: 45px;
 }
 
+/* Section classe */
+.classe{
+  display: flex;
+}
+
+.square {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: #28b7c5;
+  margin: 15px 0;
+}
+
+.classe-content p{
+  margin-bottom: 15px;
+}
+
+.classe-content {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.classe-content h1 {
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.classe-img {
+  width: 50%;
+}
+
+.classe-img img{
+  width: 95%;
+}
+
+.classe-content .line-r {
+  align-items: flex-start;
+}
+
 /*Section equipe*/
 
 .square {
@@ -120,7 +159,7 @@
   font-size: 30px;
 }
 
-.equipe .equipe-content button {
+button {
   width: 250px;
   border: 2px solid #28b7c5;
   margin: 10px 0px 30px;
