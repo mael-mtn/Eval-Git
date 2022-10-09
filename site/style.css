@@ -27,13 +27,21 @@ section.teamwork{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 10%;
+    padding-right: 6%;
 }
 
 .carre {
     display: block;
     width: 20px;
     height: 20px;
+    background: #28B7C5;
+    margin: 20px 0 ;
+}
+
+.carre1{
+    display: block;
+    width: 15px;
+    height: 15px;
     background: #28B7C5;
     margin: 20px 0 ;
 }
@@ -51,10 +59,11 @@ section.teamwork{
     height: 4px;
     background: #28B7C5;
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .container h1{
-    font-size: 40px;
+    font-size: 43px;
 
 }
 
@@ -64,10 +73,15 @@ section.teamwork{
     font-size: 18px;
 }
 
-.container button{
-    padding: 20px 50px;
-    background: none;
-    border: 2px solid rgb(51, 159, 201);
-    font-size: 16px;
-    margin-top: 30px;
+.container q{
+    text-align: end;
+    width: 85%;
+    font-size: 40px;
+    font-weight: 600;
+    quotes: none;
+}
+.container p{
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
