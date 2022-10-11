@@ -50,7 +50,8 @@
 header{
     display: flex;
     background: url(../assets/background1.png);
-    height: 950px;
+    height: 800px;
+  
 }
 
 header .gauche{
