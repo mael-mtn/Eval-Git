@@ -1,4 +1,4 @@
-/*HEADER*/
+
 
 * {
   margin: 0;
@@ -9,7 +9,43 @@
   scroll-behavior: smooth;
 }
 
-/* HEADER */
+
+/*HEADER BLOCK*/
+
+.gauche p{
+  margin-top: 20px;
+  width: 85%;
+  margin-bottom: 40px;
+}
+
+.gauche a button{
+  padding: 20px 50px;
+  border: 2px solid #28B7C5;
+  background: none;
+  margin-bottom: 100px;
+
+}
+
+.t1{
+  display: inline-block;
+  background-color: #28B7C5;
+  width: 85px;
+  height: 2px;
+}
+
+.t2{
+  display: block;
+  background-color: #28B7C5;
+  width: 50px;
+  height: 2px;
+  margin-top: 10px;
+}
+.droite{
+  width: 60%;
+}
+
+
+/* NAV MENU*/
 
 #navig .logo img{
     width: 270px;
@@ -18,6 +54,10 @@
 
 .logo{
     z-index: 999;
+}
+
+#navig .logo img{
+    width: 270px;
 }
 
 #navig{
@@ -32,6 +72,7 @@
     list-style: none;
     align-items: center;
 }
+
 #navig a{
     text-decoration: none;
     text-transform: uppercase;
@@ -238,8 +279,24 @@ section.teamwork{
     align-items: flex-end;
     padding-right: 6%;
 }
+header{
+  background: url(../assets/background1.png);
+  height: 800px;
+  margin-bottom: 170px;
+}
 
-.carre {
+header .gauche{
+    width: 40%;
+    padding: 10px 70px 20px 150px;
+}
+
+header .gauche h1{
+    font-size: 45px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.carre{
     display: block;
     width: 20px;
     height: 20px;
@@ -300,6 +357,7 @@ section.teamwork{
 .classe{
   display: flex;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .square {
@@ -345,6 +403,7 @@ section.teamwork{
   display: inline-block;
   background: #28b7c5;
   margin: 15px 0;
+  margin-bottom: 100px;
 }
 
 .equipe {
@@ -382,7 +441,7 @@ section.teamwork{
 
 .equipe .equipe-content h1 {
   margin-bottom: 0px;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 button {
@@ -544,3 +603,5 @@ footer nav .cat h2 {
   color: #28b7c5;
   margin-bottom: 10px;
 }
+
+
