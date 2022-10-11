@@ -1,8 +1,3 @@
-```diff
-
-- text in red
-
-```
 
 # Introduction
 
@@ -10,7 +5,7 @@
 
 Repository of Damien & Maël students at MyDigitalSchool. This repository gathers the assets and commits of this project. Based on an XD model, this project will be evaluated by Paul Collas.
 
-- Small information : the burger menu was badly compiled during the merge, so I just posted
+- Small information : the burger menu was badly compiled during the merge, so I just displayed a blue square.
 ## Starting
 
 
